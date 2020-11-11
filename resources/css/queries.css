@@ -25,6 +25,14 @@
   }
 }
 
+.guess {
+  font-size: 3rem;
+  width: 16rem;
+}
+
 /** small phones from 0 to 480 px */
 @media only screen and (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
 }
