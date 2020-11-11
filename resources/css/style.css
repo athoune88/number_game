@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-color: #222;
+  background-color: black;
   /* background-color: #60b347; */
 }
 
@@ -43,9 +43,18 @@ main {
 .right {
   width: 52rem;
   font-size: 2rem;
+  line-height: 6rem;
+}
+
+.right img {
+  height: 4rem;
+  width: 4rem;
+  float: left /* added */;
+  margin-right: 2rem;
 }
 
 /* ELEMENTS STYLE */
+
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -72,14 +81,14 @@ h1 {
 .between {
   font-size: 1.4rem;
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 7rem;
+  right: 15rem;
 }
 
 .again {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  top: 7rem;
+  left: 15rem;
 }
 
 .guess {
