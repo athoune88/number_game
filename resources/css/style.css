@@ -55,6 +55,10 @@ main {
 
 /* ELEMENTS STYLE */
 
+p {
+  font-size: 2rem;
+}
+
 h1 {
   font-size: 4rem;
   text-align: center;

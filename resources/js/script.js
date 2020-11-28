@@ -21,7 +21,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
 	//when the player inputs a guess
 	if (!guess) {
-		document.querySelector('.message').textContent = '❌ No number entered.';
+		document.querySelector('.message').textContent = '❌ No number entered';
 
 		//player guesses correct number
 	} else if (guess === secretNumber) {
