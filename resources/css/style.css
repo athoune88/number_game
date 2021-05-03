@@ -83,10 +83,10 @@ h1 {
 }
 
 .between {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   position: absolute;
   top: 7rem;
-  right: 15rem;
+  right: 25rem;
 }
 
 .again {
@@ -125,6 +125,7 @@ h1 {
 .message {
   margin-bottom: 8rem;
   height: 3rem;
+  font-size: 2.4rem;
 }
 
 .label-score {
